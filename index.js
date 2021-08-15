@@ -33,5 +33,5 @@ const randomIntegerFromInterval = (min, max) => {
 };
 
 function changeBcgrColor(colors) {
-    document.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)];
+    document.body.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length-1)];
 }
